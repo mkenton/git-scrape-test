@@ -19,6 +19,9 @@ puts
 puts "date/time of commit: #{@timedate_of_commit}"
 puts
 puts "Date of commit: #{@date_of_commit}"
+
+lab_obj = {lab_name: labs[0], num_commits: @num_commits, timedate: @timedate_of_commit}
+print lab_obj
 # binding.pry
 
 
